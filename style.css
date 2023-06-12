@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #d8e5f5;
+  }
+.navbar {
+    background-color: #729bcc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .navbar li {
+    float: left;
+  }
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar li a:hover {
+    background-color: #676a79;
+    border-radius: 16px;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 1670px;
+    border-radius: 66px;
+}
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .search-bar button {
+    padding: 14px 4px;
+    background-color: #729bcc;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin-left: 7px;
+    cursor: pointer;
+  }
+.navbar li:nth-child(5) {
+    margin-left: 1130px;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.caixa {
+    background-color: #fff;
+    margin-left: 13px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 50px;
+    display: inline-block;
+    align-items: center;
+    height: 450px;
+    width: 120px;
+    margin-top: 15px;
+}
+.caixa1 {
+  background-color: #fff;
+  display: grid;
+  height: 580px;
+  width: 180px;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.caixa2 {
+  background-color: #fff;
+  border-radius: 18px 120px 18px 18px;
+  height: 420px;
+  width: 780px;
+  flex-direction: column;
+}
+.meu-titulo {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  bottom: 59px;
+  right: 20px;
+}
+.desc {
+  position: relative;
+  font-size: 20px;
+  bottom: 89px;
+  right: 15px;
+  word-spacing: 10.7px;
+}
+.itens {
+  position: relative;
+  bottom: 105px;
+  right: 15px;
+  word-spacing: 12px;
+}
+.viewperfil {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 31px;
+  bottom: 98px;
+  right: 17px;
+}
+.total {
+  position: relative;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 19px;
+  bottom: 121px;
+  right: 15px;
+}
+.sorte {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 31px;
+  bottom: 110px;
+  right: 17px;
+}
+.sorte1 {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  bottom: 116px;
+  right: 17px;
+}
+.caixa3 {
+  background-color: #fff;
+  position: relative;
+  height: 260px;
+  width: 590px;
+}
+.meu-titulo2 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  bottom: 69px;
+  right: 27px;
+}
+.amigos1 {
+  position: relative;
+  bottom: 92px;
+  right: 35px;
+  border: 10px solid #f0f0f0;
+  padding-bottom: 25px;
+  background-color: #f0f0f0;
+}
+.amigos11 {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #83969f;
+  bottom: 375px;
+  line-height: 18px;
+  right: 24px;
+  left: 32px;
+  font-size: 20px;
+}
+.amigos2 {
+  position: relative;
+  bottom: 92px;
+  right: 35px;
+  left: -17px;
+  border: 7px solid #f0f0f0;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 25px;
+  background-color: #f0f0f0;
+}
+.amigos3 {
+  position: relative;
+  bottom: 320px;
+  right: -423px;
+  border: 10px solid #f0f0f0;
+  padding-bottom: 25px;
+  background-color: #f0f0f0;
+}
+.amigos13 {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #83969f;
+  bottom: 465px;
+  line-height: 18px;
+  right: 21px;
+  left: 475px;
+  font-size: 20px;
+}
+.amigos12 {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #83969f;
+  bottom: 415px;
+  line-height: 18px;
+  right: 24px;
+  left: 255px;
+  font-size: 20px;
+}
+.ver {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #00415b;
+  text-decoration: underline;
+  bottom: 430px;
+  right: 30px;
+  letter-spacing: 2px;
+}
+.caixa4 {
+  background-color: #fff;
+  height: 170px;
+  width: 780px;
+}
+.elonmusk {
+    float: left;
+    position: relative;
+    right: 25px;
+    bottom: 75px;
+    left: -24px;
+    border: 5px solid #eff7fe;
+    background: #eff7fe;
+    padding-right: 640px;
+}
+.texto-caixa4 {
+  position: relative;
+  font-size: 24px;
+  bottom: 260px;
+  color: #83969f;
+  right: -180px;
+}
+.texto-caixa41 {
+  position: relative;
+  font-size: 20px;
+  bottom: 280px;
+  right: -180px;
+}
+.meu-titulo1 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  bottom: 57px;
+  right: 25px;
+}
+.caixa5 {
+  position: relative;
+  background-color: #fff;
+  bottom: 185px;
+  top: -155px;
+  height: 400px;
+  width: 590px;
+}
+.grupo1 {
+  position: relative;
+  bottom: 98px;
+  right: 34px;
+  border: 10px solid #f0f0f0;
+  padding-bottom: 20px;
+  background-color: #f0f0f0;
+}
+.grupo2 {
+  position: relative;
+  border: 10px solid #f0f0f0;
+  bottom: 98px;
+  right: 34px;
+  left: -14px;
+  padding-bottom: 20px;
+  background-color: #f0f0f0;
+}
+.grupo3 {
+  position: relative;
+  border: 10px solid #f0f0f0;
+  bottom: 330px;
+  left: 399px;
+  padding-bottom: 20px;
+  background-color: #f0f0f0;
+}
+.grupo4 {
+  position: relative;
+  border: 10px solid #f0f0f0;
+  bottom: 490px;
+  left: -34px;
+  padding-bottom: 20px;
+  background-color: #f0f0f0;
+}
+.grupo11 {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #83969f;
+  bottom: 385px;
+  line-height: 18px;
+  right: 24px;
+  font-size: 20px;
+}
+.grupo12 {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #83969f;
+  bottom: 450px;
+  line-height: 18px;
+  left: 233px;
+  font-size: 20px;
+}
+.grupo13 {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #83969f;
+  bottom: 490px;
+  line-height: 18px;
+  left: 415px;
+  font-size: 20px;
+}
+.grupo14 {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #83969f;
+  bottom: 537px;
+  line-height: 18px;
+  left: 2px;
+  font-size: 20px;
+}
+.meu-titulo3 {
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+bottom: 67px;
+right: 27px;
+}
+.perfil {
+  margin-left: -40px;
+  margin-top: -48px;
+  margin-bottom: 2px;
+}
+.texto {
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 0.7;
+  font-size: 20px;
+  right: 19px;
+  margin-bottom: 1240px;
+  border: 10px solid #eff7ff;
+  background-color: #eff7ff;
+}
+@media screen and (min-width: 768px){
+  .body {
+    width: 50%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 767px){
+  .body {
+    width: 100%;
+    flex-direction: column;
+  }
+}
